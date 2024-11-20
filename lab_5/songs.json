@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "bandName": "Linkin Park",
+    "songTitle": "Numb",
+    "imagePath": "https://upload.wikimedia.org/wikipedia/en/b/b9/Linkin_Park_-_Numb_CD_cover.jpg",
+    "audioPath": "songs/linkin-park_numb.mp3",
+    "description": "A powerful song from Linkin Park's album 'Meteora'."
+  },
+  {
+    "id": 2,
+    "bandName": "Coldplay",
+    "songTitle": "Fix You",
+    "imagePath": "https://upload.wikimedia.org/wikipedia/en/b/b1/Coldplay_-_Fix_You.jpg",
+    "audioPath": "songs/Coldplay_Fix_You.mp3",
+    "description": "An emotional and uplifting song by Coldplay."
+  },
+  {
+    "id": 3,
+    "bandName": "Imagine Dragons",
+    "songTitle": "Believer",
+    "imagePath": "https://i1.sndcdn.com/artworks-s3zOCWcV8XQVtQcv-0emq8A-t500x500.jpg",
+    "audioPath": "songs/Imagine_Dragons_Believer.mp3",
+    "description": "A hit song with powerful lyrics and music by Imagine Dragons."
+  },
+  {
+    "id": 4,
+    "bandName": "The Beatles",
+    "songTitle": "Hey Jude",
+    "imagePath": "https://m.media-amazon.com/images/M/MV5BNjBlYjgzYTMtY2I2OS00YjE4LTk4ZTgtOTg2N2UwMWRmMjFlXkEyXkFqcGc@._V1_.jpg",
+    "audioPath": "songs/beatles-bundles_hey-jude-let-it-be.mp3",
+    "description": "A classic song by The Beatles, known for its soothing melody."
+  },
+  {
+    "id": 5,
+    "bandName": "Queen",
+    "songTitle": "Bohemian Rhapsody",
+    "imagePath": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Bohemian_Rhapsody.png/220px-Bohemian_Rhapsody.png",
+    "audioPath": "songs/queen_bohemian-rhapsody.mp3",
+    "description": "A groundbreaking rock opera by Queen, combining multiple genres in one."
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lab#5</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="js/script.js"></script>
+    <script defer type="module" src="js/validation.js"></script>
+    <script defer type="module" src="js/modal.js"></script>
+</head>
+
+<body>
+    <div class="add">
+        <h2>Додати пісню</h2>
+    </div>
+
+    <div class="container">
+
+    </div>
+
+    <div class="player" id="player">
+        <div class="playerBox">
+
+            <img id="player-image" src="" alt="Song Image">
+            <div class="box">
+                <h2 id="player-song-title">Name of song</h2>
+                <h5 id="player-band-name">Name of Band</h5>
+                <p id="descriptions-song">descriptions-song</p>
+            </div>
+
+        </div>
+        <div class="player-controls">
+            <button id="play-pause-btn">Play</button>
+            <label for="volume-slider">Volume:</label>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="0.5">
+        </div>
+
+        <input type="range" id="seek-bar" value="0" step="1">
+        <div id="time">
+            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+        </div>
+    </div>
+
+
+    <div class="back">
+        <div class="modal">
+            <h1>Add song!</h1>
+            <p class="close">x</p>
+
+            <h3>Name of song</h3>
+            <input type="text" id="name">
+
+            <h3>Name of Band</h3>
+            <input type="text" id="group">
+
+            <h3>Description</h3>
+            <input type="text" id="descriptions">
+
+            <h3>Uploud music</h3>
+            <input type="file" id="audio" accept="audio/*">
+
+            <h3>Uploud pictures</h3>
+            <input type="file" id="pitcure" accept="image/*">
+            <button class="apply">Add</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

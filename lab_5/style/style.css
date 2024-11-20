@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #779979;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #d0ded6;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.description {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+h5 {
+    font-size: 1em;
+    color: #cd0000;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 0.9em;
+    color: #190e0e;
+}
+
+.player {
+    transition: 1s;
+    opacity: 0;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(118, 112, 176, 0.1);
+    width: 400px;
+    min-height: 200px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.player img {
+    width: 100%;
+    max-width: 120px;
+    border-radius: 5px;
+}
+
+.player h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#volume-slider {
+    width: 100px;
+}
+
+#seek-bar {
+    width: 100%;
+}
+
+#play-pause-btn {
+    padding: 10px 15px;
+    background-color: #0a2f56;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#play-pause-btn:hover {
+    background-color: #103155;
+}
+
+#time {
+    font-size: 0.9em;
+}
+
+.add {
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    text-align: center;
+    width: 200px;
+    height: 85px;
+    border: 2px solid #000;
+    font-size: 24px;
+    background-color: #294c29;
+    color: white;
+    transition: 1s;
+}
+
+.add:hover {
+    background-color: #376937;
+}
+
+.back {
+    display: none;
+    opacity: 0;
+
+}
+
+.modal.active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.back.active {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    background-color: #2b8b5c;
+    color: #fff;
+    transition: 1s;
+}
+
+.close:hover {
+    background-color: #861616;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+
+.apply {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: darkgreen;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.apply:hover {
+    background-color: #11aa11;
+}
+
+.delete-button {
+    background-color: #227059;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    width: 90%;
+    transition: 1s;
+}
+
+.delete-button:hover {
+    background-color: #6b1313;
+}
+
+.playerBox {
+    display: flex;
+}
+
+.box {
+    margin: 0 30px;
+}
